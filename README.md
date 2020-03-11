@@ -21,7 +21,7 @@ sdk use java 14.ea.36-open
     <configuration>
       <release>14</release>
       <compilerArgs>
-        <arg>--enable-preview-features</arg>
+        <arg>--enable-preview</arg>
       </compilerArgs>
       <forceJavacCompilerUse>true</forceJavacCompilerUse>
       <parameters>true</parameters>
@@ -31,7 +31,7 @@ sdk use java 14.ea.36-open
   <plugin>
     <artifactId>maven-surefire-plugin</artifactId>
     <configuration>
-      <argLine>--enable-preview-features</argLine>
+      <argLine>--enable-preview</argLine>
     </configuration>
   </plugin>
 </plugins>
