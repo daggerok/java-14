@@ -1,3 +1,13 @@
+.idea
+!.idea/
+.idea/*
+!.idea/runConfigurations/
+*.iml
+*.ipr
+*.iws
+*.log*
+out/
+build/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
