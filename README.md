@@ -60,3 +60,13 @@ but with java 14 we finally have it out of the box!
 ```java
 record Person(Long id, String name) {}
 ```
+
+**usage**
+
+```java
+var p = new Person(1L, "Max");
+var id = p.id();
+var name = p.name();
+System.out.printf(" %s is Person with id %d and name %s%n", p, id, name);
+```
+
