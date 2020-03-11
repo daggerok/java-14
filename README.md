@@ -67,6 +67,6 @@ record Person(Long id, String name) {}
 var p = new Person(1L, "Max");
 var id = p.id();
 var name = p.name();
-System.out.printf("%s is Person with id %d and name %s!%n", p, id, name);
+System.out.printf("%s is person with id %d and name %s!%n", p, id, name); // Person[id=1, name=Max] is person with id 1 and name Max!
 ```
 
