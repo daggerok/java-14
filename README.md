@@ -71,3 +71,13 @@ System.out.printf("%s is person with id %d and name %s!%n", p, id, name);
 // output: Person[id=1, name=Max] is person with id 1 and name Max!
 ```
 
+## compact constructor
+
+```java
+record Person(Long id, String name) {
+  Person {
+    Assert.isTrue(this.id > 0, "id must be greater than zero.");
+    this.name = this.name.toLowerCase();
+  }
+}
+```
