@@ -81,3 +81,6 @@ record Person(Long id, String name) {
   }
 }
 ```
+
+## other repos
+* https://github.com/daggerok/java-examples
