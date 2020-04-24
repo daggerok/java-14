@@ -82,5 +82,9 @@ record Person(Long id, String name) {
 }
 ```
 
+## resources
+
+* [YouTube: [2020 DevDotNext Digital Edition] Project Amber: Recent Java Language Features](https://www.youtube.com/watch?v=3smzW46KEI8)
+
 ## other repos
 * https://github.com/daggerok/java-examples
